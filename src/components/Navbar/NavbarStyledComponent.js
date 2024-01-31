@@ -63,8 +63,10 @@ export const NavLink = styled.a`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    padding-top:14px;
     :hover {
       color: ${({ theme }) => theme.primary};
+      
     }
 
     &.active {
@@ -119,6 +121,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.5rem;
     cursor: pointer;
+    padding-top:5px;
     color: ${({ theme }) => theme.text_primary};
   }
 `
@@ -143,16 +146,6 @@ export const MobileMenu = styled.div`
 
 `
 
-export const MobileMenuItems = styled.ul`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 32px;
-  list-style: none;
-  width: 100%;
-  height: 100%;
-`
 
 export const MobileMenuLink = styled(LinkR)`
   color: ${({ theme }) => theme.text_primary};
@@ -174,7 +167,7 @@ export const MobileMenuButton = styled.a`
   justify-content: center;
   display: flex;
   align-items: center;
-  height: 70%;
+  height: 60%;
   border-radius: 20px;
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
@@ -183,6 +176,7 @@ export const MobileMenuButton = styled.a`
   text-decoration: none;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
+  margin: 0px 0px 8px 10px;
 
   :hover {
     background: ${({ theme }) => theme.primary};
