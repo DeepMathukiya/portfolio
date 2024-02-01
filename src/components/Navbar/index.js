@@ -17,7 +17,9 @@ const Navbar = () => {
           </a>
         </NavLogo>
         <MobileIcon>
+        {/* <FaBars/> */}
           <MobileMenuButton onClick={() => {
+          
             setIsOpen(!isOpen)
           }}/>
           <MobileMenuButton onClick={() => {
