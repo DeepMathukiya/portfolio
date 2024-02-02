@@ -46,7 +46,8 @@ const Projects = ({openModal,setOpenModal}) => {
             ))}
 
           {projects
-            .filter((item) => (item.category === toggle || item.category2 ===toggle ) )
+          
+            .filter((project) => (project.category === toggle || project.category2 ===toggle ) )
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}

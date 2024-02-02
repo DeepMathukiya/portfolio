@@ -13,8 +13,8 @@ background-color: #000000a7;
 display: flex;
 align-items: top;
 justify-content: center;
-overflow-y: scroll;
 transition: all 0.5s ease;
+overflow-y: auto;
 `;
 
 const Wrapper = styled.div`
@@ -29,6 +29,15 @@ padding: 20px;
 display: flex;
 flex-direction: column;
 position: relative;
+
+`;
+
+const Close = styled.div`
+
+position: sticky;
+top: 0;
+width: 100%;
+margin-bottom: 20px;
 `;
 
 const Title = styled.div`
@@ -182,21 +191,32 @@ const Button = styled.a`
 `;
 
 
+
 const index = ({ openModal, setOpenModal }) => {
+    const handleContainerClick = () => {
+        setOpenModal({ state: false, project: null });
+      };
+    
+      const handleWrapperClick = (e) => {
+        e.stopPropagation();
+      };
     const project = openModal?.project;
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
-            <Container>
-                <Wrapper>
-                    <CloseRounded
-                        style={{
-                            position: "absolute",
-                            top: "10px",
-                            right: "20px",
-                            cursor: "pointer",
-                        }}
-                        onClick={() => setOpenModal({ state: false, project: null })}
-                    />
+            <Container onClick={handleContainerClick}>
+                <Wrapper onClick={handleWrapperClick}>
+                    <Close> 
+                      <CloseRounded
+                            style={{
+                                width: "50px",
+                                height: "50px",
+                                position: "absolute",
+                                right:0,
+                                color: "red",
+                                cursor: "pointer",
+                            }}
+                            onClick={() => setOpenModal({ state: false, project: null })}
+                        /></Close>
                     <Image src={project?.image} />
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
@@ -214,10 +234,10 @@ const index = ({ openModal, setOpenModal }) => {
                                     <Member>
                                         <MemberImage src={member.img} />
                                         <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.github} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <GitHub />
                                         </a>
-                                        <a href={member.linkedin} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.linkedin} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <LinkedIn />
                                         </a>
                                     </Member>
