@@ -9,8 +9,8 @@ export const Bio = {
     "I'm a motivated and flexible person, always excited to take on new challenges. I love learning and am committed to delivering high-quality results. With a positive attitude and a focus on growth, I'm ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/DeepMathukiya",
   resume:
-    "https://drive.google.com/file/d/1Bp-Q1nyVVFxEVI3eqOiGGStyKHYa6IOc/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+"https://drive.google.com/file/d/1KFeQXUBzUx92QgmznNrSiGGUCM9SM1Fq/view?usp=sharing",  
+linkedin: "https://www.linkedin.com/in/deepmathukiya/",
   insta: "https://www.instagram.com/deepsmathukiya/",
 };
 
@@ -343,7 +343,7 @@ export const projects = [
     category: "web app",
     category2:"machine learning",
     github: "https://github.com/DeepMathukiya/Diabetes",
-    webapp: "https://github.com/DeepMathukiya/Diabetes",
+    webapp: "https://diabetes-4qyz.onrender.com/",
   },
  
   {
