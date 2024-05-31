@@ -264,7 +264,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 2,
+    id: 7 ,
     title: "Medecio",
     date: "Oct 2023 ",
     description:
@@ -279,20 +279,53 @@ export const projects = [
     member: [
       {
         name: "Deep Mathukiya",
-        img: "https://media.licdn.com/dms/image/D4D03AQGKu8gj50UDHg/profile-displayphoto-shrink_400_400/0/1676895449061?e=1712188800&v=beta&t=pWxvhyo2YIGmU3oGgfikPC_pScHsSJMdpBuxr40rss4 ",
+        img: "https://imgur.com/9sH6f9a.jpg",
         linkedin: "https://www.linkedin.com/in/deepmathukiya/",
         github: "https://github.com/DeepMathukiya/",
       },
       {
         name: "Ansh Sardhara",
-        img: "https://media.licdn.com/dms/image/D4D03AQHA7TrkhXeRzg/profile-displayphoto-shrink_400_400/0/1681538486185?e=1712188800&v=beta&t=YW2JgGS128Sic6xp4YLJOvrub1bRtoZEc1sMY_FXe2w",
+        img: "https://imgur.com/LoEqpGd.jpg",
         linkedin: "https://www.linkedin.com/in/ansh-sardhara/",
         github: "https://github.com/ansh-2411",
       },
     ],
   },
   {
-    id: 4,
+    id: 8,
+    title: "SQL Generator",
+    date: "April 2024",
+    description:
+    "Effortlessly create complex SQL queries with our intuitive SQL Query Generator. Designed for both beginners and experts, our tool simplifies database interaction, ensuring accurate and efficient query building without the need for deep SQL knowledge.",
+    image:
+      "https://imgur.com/3l7eKtm.jpg",
+    tags: ["GenerativeAi","MySql","Flask","HTML","Bootstrap", "Firebase","CSS", ],
+    category: "web app",
+    github: "https://github.com/DeepMathukiya/SqlQueryGenerator",
+    webapp: "https://sqlquerygenerator.onrender.com",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+      {
+        name: "Ansh Sardhara",
+        img: "https://imgur.com/LoEqpGd.jpg",
+        linkedin: "https://www.linkedin.com/in/ansh-sardhara/",
+        github: "https://github.com/ansh-2411",
+      },
+      {
+        name: "Jenil Kakadiya",
+        img: "https://imgur.com/CLj9JB7.jpg",
+        linkedin: "https://www.linkedin.com/in/jenil-kakadiya-782933294/",
+        github: "https://github.com/jenil-kakadiya",
+      },
+    ],
+  },
+  {
+    id: 6,
     title: "Heart disease Prediction",
     date: "Oct 2023",
     description:
@@ -304,6 +337,14 @@ export const projects = [
     category2: "web app",
     github: "https://github.com/DeepMathukiya/heart-disease",
     webapp: "http://heart-9dh6.onrender.com/",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+    ],
   },
   
   {
@@ -317,10 +358,19 @@ export const projects = [
     tags: ["Java", "XML", "Android Studio", "Chaquopy"],
     category: "android app",
     github: "https://github.com/DeepMathukiya/TextToMusic",
-    webapp: "https://github.com/DeepMathukiya/TextToMusic",
+    webapp: "http://deepapp.html-5.me/index.php?filename=TextToMusic.apk",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+    ],
   },
+  
   {
-    id: 6,
+    id: 4,
     title: "IMusic",
     date: "Aug -2023",
     description:
@@ -330,24 +380,40 @@ export const projects = [
     tags: ["Java", "XML", "Android Studio",],
     category: "android app",
     github: "https://github.com/DeepMathukiya/Imusic",
-    webapp: "https://github.com/DeepMathukiya/Imusic",
+    webapp: "http://deepapp.html-5.me/index.php?filename=IMusic.apk",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+    ],
   },
   {
-    id: 10,
+    id: 3,
     title: "Diabetes" ,
     date: "june 2023",
     description:
 "a machine learning model and its user-friendly interface for predicting diabetes risk. Users can input relevant health parameters, and the model provides personalized risk assessments, aiding in early detection and preventive measures.",    image:
-    "https://i.imgur.com/d9E6Xcx",
+    "https://imgur.com/YtslgsK.gif",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "web app",
     category2:"machine learning",
     github: "https://github.com/DeepMathukiya/Diabetes",
     webapp: "https://diabetes-4qyz.onrender.com/",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+    ],
   },
  
   {
-    id: 7,
+    id: 2,
     title: "CharitAble",
     date: "Apr -2023",
     description:
@@ -358,9 +424,17 @@ export const projects = [
     category: "web app",
     github: "https://github.com/DeepMathukiya/charitAble",
     webapp: "http://charitable.epizy.com/",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+    ],
   },
   {
-    id: 8,
+    id: 1,
     title: "Agrotech",
     date: "Nov -2022",
     description:
@@ -371,6 +445,14 @@ export const projects = [
     category: "web app",
     github: "https://github.com/DeepMathukiya/Agrotech",
     webapp: "http://kissan.rf.gd/",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+    ],
   },
 ];
 
