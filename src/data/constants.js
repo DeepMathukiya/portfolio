@@ -19,6 +19,52 @@ export const skills = [
     title: "Web",
     skills: [
       {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Node.js",
+        image:"https://e7.pngegg.com/pngimages/306/37/png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-miscellaneous-text-thumbnail.png  ",  
+      },
+      {
+        name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Redux",
+        image:
+          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      },
+     
+      {
+        name :"Express Js",
+        image :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI3nGP9w-Ol7H0GYUnDUdCwqnoLwRzoe_cmA&s",
+      },
+      {
+        name: "PHP",
+        image:
+          "https://imgur.com/8JkYzmv.jpg",
+      },
+      
+      {
+        name: "laravel",
+        image:
+          "https://imgur.com/hZtofZE.jpg"
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Flask",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
+      },
+      
+      {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
@@ -27,56 +73,14 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "PHP",
-        image:
-          "https://imgur.com/8JkYzmv.jpg",
-      },
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "laravel",
-        image:
-          "https://imgur.com/hZtofZE.jpg"
-      },
-      {
-        name: "Flask",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
+            
       {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
+     
+     
 
     ],
   },
@@ -157,6 +161,19 @@ export const skills = [
     title: "Others",
     skills: [
       {
+        name :"Docker",
+        image :"https://w7.pngwing.com/pngs/219/411/png-transparent-docker-logo-kubernetes-microservices-cloud-computing-dockers-logo-text-logo-cloud-computing-thumbnail.png"
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name:"MongoDB",
+        image :"https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png"
+      },
+      {
         name: "Git",
         image:
           "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
@@ -168,9 +185,8 @@ export const skills = [
       },
 
       {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
       {
         name: "Intellij IDEA",
@@ -401,7 +417,7 @@ export const projects = [
     category: "web app",
     category2:"machine learning",
     github: "https://github.com/DeepMathukiya/Diabetes",
-    webapp: "https://diabetes-4qyz.onrender.com/",
+    webapp: "https://diabetes-6dzs.onrender.com/",
     member: [
       {
         name: "Deep Mathukiya",
