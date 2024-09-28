@@ -1,13 +1,17 @@
+import { Twitter } from "@mui/icons-material";
+
 export const Bio = {
   name: "Deep Mathukiya",
   roles: [
+    "ML Developer",
     "Web Developer",
-    "Android Developer",
     "Programmer",
   ],
   description:
     "I'm a motivated and flexible person, always excited to take on new challenges. I love learning and am committed to delivering high-quality results. With a positive attitude and a focus on growth, I'm ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/DeepMathukiya",
+  mail: "mailto:dsmathukiya2004@gmail.com",
+  twitter:"https://x.com/deepsmathukiya",
   resume:
 "https://drive.google.com/file/d/1KFeQXUBzUx92QgmznNrSiGGUCM9SM1Fq/view?usp=sharing",  
 linkedin: "https://www.linkedin.com/in/deepmathukiya/",
@@ -15,6 +19,68 @@ linkedin: "https://www.linkedin.com/in/deepmathukiya/",
 };
 
 export const skills = [
+  {
+    title: "Machine Learning",
+    skills: [
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name : "TensorFlow",
+        image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6iQyYphUHhLEUchqyhIwsRMe0G9aqVFjUaA&s",
+      },
+      {
+        name:"OpenCV",
+        image :"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/1662px-OpenCV_Logo_with_text_svg_version.svg.png"
+      },
+      {
+        name: "Sk Learn Kit",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+      },
+
+      {
+        name: "Pandas",
+        image:
+          "https://imgur.com/W1eFZbo.jpg",
+
+      },
+      {
+        name: "NumPy",
+        image:
+          "https://imgur.com/orvowHJ.jpg",
+      },
+      {
+        name: "Matplotlib",
+        image:
+          "https://imgur.com/SwvaZPr.jpg",
+      },
+      {
+        name:"gTTS",
+        image :"https://pythonfix.com/pkg/g/gtts/gtts-banner.webp",
+      },
+
+      {
+        name: "Jupyter",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+      },
+      {
+        name: "Google Colab",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/2560px-Google_Colaboratory_SVG_Logo.svg.png",
+      },
+      {
+        name :"Hugging Face",
+        image:"https://cdn.worldvectorlogo.com/logos/huggingface-2.svg"
+      }
+
+      
+    ],
+  },
   {
     title: "Web",
     skills: [
@@ -85,52 +151,6 @@ export const skills = [
     ],
   },
   {
-    title: "Machine Learning",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Pandas",
-        image:
-          "https://imgur.com/W1eFZbo.jpg",
-
-      },
-      {
-        name: "NumPy",
-        image:
-          "https://imgur.com/orvowHJ.jpg",
-      },
-      {
-        name: "Matplotlib",
-        image:
-          "https://imgur.com/SwvaZPr.jpg",
-      },
-      {
-        name:"gTTS",
-        image :"https://pythonfix.com/pkg/g/gtts/gtts-banner.webp",
-      },
-      {
-        name: "Jupyter",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/2560px-Google_Colaboratory_SVG_Logo.svg.png",
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
-
-    ],
-  },
-  {
     title: "Android",
     skills: [
       {
@@ -152,7 +172,7 @@ export const skills = [
         name:
           "Chaqopy",
         image:
-          "https://play-lh.googleusercontent.com/C_OlSprZa74lQxKUnoUP4C99JFNH9_NDZy8nWoW6xWgu3Q0PAGcbjpqvD63dwGZSFFU=w240-h480-rw",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVlfjzr1A4B6voEIstEKE5qzQxGZ9Pf-YFVg&s",
       },
     ],
   },
@@ -251,11 +271,11 @@ export const experiences = [
 export const education = [
   {
     id: 2,
-    img: "https://storage.googleapis.com/ezap-prod/colleges/306/pandit-deendayal-petroleum-university-logo.jpeg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMNW1DwS6DoBYNgyrnKtG9i3B3mn0I1YkvAw&s",
     school: "Pandit Deendayal Energy University, Gandhinagar",
     date: "Oct 2022 - Sep 2026",
     grade: "9.65 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Pandit Deendayal Energy University, Gandhinagar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Pandit Deendayal Energy University, Gandhinagar. I have completed 4 semesters and have a CGPA of 9.65. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
@@ -279,6 +299,88 @@ export const education = [
 ];
 
 export const projects = [
+  
+  {
+    id: 8 ,
+    title: "SignToSpeech",
+    date: "Oct 2023 ",
+    description:
+      "Sign Language to Speech Conversion and Vice a versa : A Flutter-based app that facilitates real-time translation between Gujarati sign language and speech, utilizing AR technology to visually represent signs, enhancing communication between signers and non-signers."
+      ,
+      image:
+      "https://imgur.com/AqGYGmu.gif",
+      tags: ["TensorFlow", "Pandas", "Matplotlib", "JavaScript", "Flutter","Keras","OpenCV","NumPy"],
+      category: "android app",
+      category2: "machine learning",
+    github: "https://github.com/DeepMathukiya/SignToSpeech",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+      {
+        name: "Ansh Sardhara",
+        img: "https://imgur.com/LoEqpGd.jpg",
+        linkedin: "https://www.linkedin.com/in/ansh-sardhara/",
+        github: "https://github.com/ansh-2411",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "FloodPre",
+    date: "September 2024 ",
+    description:
+      "Flood Prediction Application: A web app providing real-time flood risk analysis through flood mapping, machine learning-based flood-prone region predictions, and user alerts for early warnings, enabling proactive decision-making.It also Takes Picture from satelite and highlite the flooded area."
+      ,
+      image:
+      "https://imgur.com/i4aoKu2.gif",
+      tags: ["TensorFlow", "Pandas","OpenCV","NumPy", "Matplotlib", "JavaScript", "React.js"],
+      category: "web app",
+      category2: "machine learning",
+    github: "https://github.com/DeepMathukiya/FloodAiHackthon",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+      
+    ],
+  },
+  {
+    id: 8,
+    title: "AgrisenseAI",
+    date: "August 2024 ",
+    description:
+     "Smart Agriculture Assistant: An AI-driven platform designed to assist farmers in identifying crop diseases using a CNN model for leaf analysis, with an integrated AR feature for scanning crops and offering detailed disease insights and solutions."
+     ,
+      image:
+      "https://imgur.com/6jkSHxl.gif",
+      tags: ["TensorFlow", "Pandas","OpenCV","NumPy", "Matplotlib", "JavaScript", "React.js"],
+      category: "web app",
+      category2: "machine learning",
+    github: "https://github.com/DeepMathukiya/AgriSense-Ai",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+      {
+        name: "Ansh Sardhara",
+        img: "https://imgur.com/LoEqpGd.jpg",
+        linkedin: "https://www.linkedin.com/in/ansh-sardhara/",
+        github: "https://github.com/ansh-2411",
+      },
+      
+    ],
+  },
+  
   {
     id: 7 ,
     title: "Medecio",
@@ -317,6 +419,7 @@ export const projects = [
       "https://imgur.com/3l7eKtm.jpg",
     tags: ["GenerativeAi","MySql","Flask","HTML","Bootstrap", "Firebase","CSS", ],
     category: "web app",
+    category2: "machine learning",
     github: "https://github.com/DeepMathukiya/SqlQueryGenerator",
     webapp: "https://sqlquerygenerator.onrender.com",
     member: [
