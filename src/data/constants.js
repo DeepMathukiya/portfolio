@@ -45,18 +45,18 @@ export const skills = [
       {
         name: "Pandas",
         image:
-          "https://imgur.com/W1eFZbo.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYdGfU_JedP54Ab0Q8qHMki1stU4Dh2BZ8w&s",
 
       },
       {
         name: "NumPy",
         image:
-          "https://imgur.com/orvowHJ.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRC2C9EVtvZjW_wQ3f9bEP2Fgla230C3kVYQ&s",
       },
       {
         name: "Matplotlib",
         image:
-          "https://imgur.com/SwvaZPr.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNW4FYu8aIfv9vdr-uK7lxMsd79VsbmuJvJQ&s",
       },
       {
         name:"gTTS",
@@ -111,13 +111,13 @@ export const skills = [
       {
         name: "PHP",
         image:
-          "https://imgur.com/8JkYzmv.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRxpsL-2QuKegg5K1fw0ff4p8ErFk2vmjwZQ&s",
       },
       
       {
         name: "laravel",
         image:
-          "https://imgur.com/hZtofZE.jpg"
+          "https://download.logo.wine/logo/Laravel/Laravel-Logo.wine.png"
       },
       {
         name: "Python",
@@ -127,7 +127,7 @@ export const skills = [
       {
         name: "Flask",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIhqNQXYFrSE3l_X_MStZ_O-59yhl0id1CA&s",
       },
       
       {
@@ -211,7 +211,7 @@ export const skills = [
       {
         name: "Intellij IDEA",
         image:
-          "https://imgur.com/xqqPclo.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8fbwusxe4WMoRjHlWi_5QYN5VlDqZmwXDgQ&s",
       },
       {
         name: "Figma",
@@ -241,16 +241,29 @@ export const experiences = [
   //   ],
   // doc:  please insert document or certificate link
   // },
-
-
+{
+id: 2,
+img: "https://bnbpdeu.web.app/img/logo.png",
+    role: "Tech and IT Head",
+    company: "Bulls And Bear PDEU",
+    date: "JULY2024 - Present",
+    desc: "Led all technical aspects for Bulls & Bears, PDEU's finance club, including the creation and management of the Bazzar event website and ensuring its smooth operation during key events.",
+    skills: [
+      "Leadership",
+      "Web Development",
+      "Reactjs",
+      "Node js",
+      "Firebase",
+    ],
+},
   {
     id: 1,
-    img: "https://imgur.com/uIFllxg.jpg",
+    img: "https://miro.medium.com/v2/resize:fit:799/0*ilw552fVUGbwIzbE.jpg",
     role: "Technical Team",
     company: "GFG PDEU",
-    date: "OCT2023 - Present",
-    desc: "GfG Student Chapter is dedicated to creating a collaborative learning environment for computer science enthusiasts. Engage in hands-on learning through technical workshops covering diverse topics, such as programming languages, data structures, algorithms, and web development Test your coding skills in competitive events and gain exposure to real-world challenges.",
-    skills: [
+    date: "OCT2023 - OCT2024",
+    desc: "Active participant in technical workshops and competitive coding events at Geeks For Geeks, PDEU, focusing on programming, data structures, algorithms, and web development.",
+     skills: [
       "Leadership",
       "Web Development",
       "Reactjs",
