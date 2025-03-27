@@ -36,7 +36,7 @@ text-overflow: ellipsis;
 const Card = styled.div`
     width: 650px;
     border-radius: 10px;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     padding: 12px 16px;
     justify-content: space-between;
     position: relative;
@@ -44,39 +44,30 @@ const Card = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12px;
-    border: 0.1px solid #854CE6;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
-                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-                border-color 0.3s ease-in-out, 
-                opacity 0.3s ease-in-out;
-
-    &:hover {
-        box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.25);
-        transform: scale(1.02) translateY(-5px);
-        border-color: #5a2ebc;
-        opacity: 0.95;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+        transform: translateY(-5px);
     }
-
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px){
         padding: 10px;
         gap: 8px;
         width: 300px;
     }
 
-    &:hover ${Document} {
+    &:hover ${Document}{
         display: flex;
-        transition: display 0.3s ease-in-out;
     }
 
-    &:hover ${Span} {
+    &:hover ${Span}{
         overflow: visible;
         -webkit-line-clamp: unset;
-        transition: overflow 0.3s ease-in-out, -webkit-line-clamp 0.3s ease-in-out;
+
     }
-`;
 
-
-
+    border: 0.1px solid #306EE8;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+`
 
 const Top = styled.div`
     width: 100%;
@@ -101,7 +92,7 @@ const Body = styled.div`
 `
 
 
-const Name = styled.div`
+const Role = styled.div`
     font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -110,7 +101,7 @@ const Name = styled.div`
     }
 `
 
-const Degree = styled.div`
+const Company = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -128,10 +119,24 @@ const Date = styled.div`
     }
 `
 
-const Grade = styled.div`
-    font-size: 14px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text_secondary + 99};
+
+const Skills = styled.div`
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: -10px;
+`
+
+const ItemWrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+`
+
+const Skill = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -139,23 +144,43 @@ const Grade = styled.div`
 
 
 
-const EducationCard = ({ education }) => {
+const AchievementCard = ({ achievement }) => {
     return (
         <Card>
             <Top>
-                <Image src={education.img} />
+                <Image src={achievement.img} />
                 <Body>
-                    <Name>{education.school}</Name>
-                    <Degree>{education.degree}</Degree>
-                    <Date>{education.date}</Date>
+                    <Role>{achievement.Title}</Role>
+                    <Company>{achievement.award}</Company>
+                    <Date>{achievement.date}</Date>
                 </Body>
             </Top>
-            <Grade><b>Grade: </b>{education.grade}</Grade>
             <Description>
-                <Span>{education.desc}</Span>
+                {achievement?.desc &&
+                    <Span>{achievement?.desc}</Span>
+
+                }
+                {achievement?.skills &&
+                    <>
+                        <br />
+                        <Skills>
+                            <b>Skills:</b>
+                            <ItemWrapper>
+                                {achievement?.skills?.map((skill, index) => (
+                                    <Skill>• {skill}</Skill>
+                                ))}
+                            </ItemWrapper>
+                        </Skills>
+                    </>
+                }
             </Description>
+            {achievement.doc &&
+                <a href={achievement.doc} target="new" alt="https://www.svgrepo.com/show/510970/external-link.svg">
+                    <Document src={achievement.doc} />
+                </a>
+            }
         </Card>
     )
 }
 
-export default EducationCard
+export default AchievementCard

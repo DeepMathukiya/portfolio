@@ -7,8 +7,8 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import { education } from '../../data/constants';
-import EducationCard from '../Cards/EducationCard';
+import AchievementCard from '../Cards/AchivementCard';
+import { achievements } from '../../data/constants';
 
 const Container = styled.div`
     display: flex;
@@ -17,7 +17,7 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    padding: 0px 0px 60px 0px;
+    padding: 0px 0px 80px 0px;
     @media (max-width: 960px) {
         padding: 0px;
     }
@@ -31,7 +31,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     width: 100%;
     max-width: 1350px;
-    padding: 40px 0px 0px 0px;
+    padding: 80px 0;
     gap: 12px;
     @media (max-width: 960px) {
         flex-direction: column;
@@ -70,34 +70,29 @@ const TimelineSection = styled.div`
     align-items: center;
     justify-content: center;
     gap: 12px;
-    
-    @media (max-width: 660px) {
-        align-items: center;
-    }
 `;
 
 
 
 const index = () => {
     return (
-        <Container id="education">
+        <Container id="achievement">
             <Wrapper>
-                <Title>Education</Title>
+                <Title>Achievement</Title>
                 <Desc>
-                    
-                Dedicated to continuous learning and growth, I bring a passion for knowledge and a commitment to excellence in every endeavor. My educational details are as follows.
-                </Desc>
+                Extensive experience as a Software Engineer, contributing to various companies, university clubs, and innovative projects.
+                </Desc> 
                 <TimelineSection>
                     <Timeline>
-                        {education.map((education,index) => (
-                            <TimelineItem >
-                                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <EducationCard education={education}/>
-                                </TimelineContent>
+                        {achievements.map((achievement,index) => (
+                            <TimelineItem>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== education.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    {index !== achievements.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
+                                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                                    <AchievementCard achievement={achievement}/>
+                                </TimelineContent>
                             </TimelineItem>
                         ))}
                     </Timeline>
