@@ -6,226 +6,278 @@ export const Bio = {
     "ML Developer",
     "Software Developer",
     "Programmer",
-    
+
   ],
   description:
     "I'm a motivated and flexible person, always excited to take on new challenges. I love learning and am committed to delivering high-quality results. With a positive attitude and a focus on growth, I'm ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/DeepMathukiya",
   mail: "mailto:dsmathukiya2004@gmail.com",
-  twitter:"https://x.com/deepsmathukiya",
+  twitter: "https://x.com/deepsmathukiya",
   resume:
-"https://drive.google.com/file/d/1KFeQXUBzUx92QgmznNrSiGGUCM9SM1Fq/view?usp=sharing",  
-linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+    "https://drive.google.com/file/d/1KFeQXUBzUx92QgmznNrSiGGUCM9SM1Fq/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/deepmathukiya/",
   insta: "https://www.instagram.com/deepsmathukiya/",
 };
 
-export const skills = [
-  {
-    title: "Machine Learning",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name : "TensorFlow",
-        image:
+export const skills = [{
+  title: "Computer Vision",
+  skills: [
+    {
+      name: "Detection",
+      image: "https://cdn-icons-png.freepik.com/512/4667/4667443.png"
+    },
+    {
+      name: "Classification",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwvRlNyPQSfEf3sTeKEFtAx3VZX2dbnWB87AmijUDK_9vU2UmN_z10BVaQgGF67ksJLY0&usqp=CAU"
+    },
+    {
+      name: "Segmentation",
+      image: "https://c8.alamy.com/comp/M50H4A/customer-market-segmentation-concept-on-white-background-M50H4A.jpg",
+    },
+    {
+      name: "Tracking",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7x_IcoONsKn05bkJHHEg29K0MrrjUCEWxuA&s"
+    },
+    {
+      name:"Edge Device Deployment",
+      image:"https://www.machinemetrics.com/hs-fs/hubfs/edge-device-1.png?width=357&name=edge-device-1.png"
+    },
+    {
+      name: "TensorFlow",
+      image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6iQyYphUHhLEUchqyhIwsRMe0G9aqVFjUaA&s",
-      },
-      {
-        name:"OpenCV",
-        image :"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/1662px-OpenCV_Logo_with_text_svg_version.svg.png"
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
+    },
+    {
+      name: "OpenCV",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OpenCV_Logo_with_text_svg_version.svg/1662px-OpenCV_Logo_with_text_svg_version.svg.png"
+    },
+    {
+      name: "YOLO",
+      image: "https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64777c3e071ec953437e6950_logo.svg"
+    },
+    {
+      name: "CNN",
+      image: "https://cdn.educba.com/academy/wp-content/uploads/2019/10/Convolutional-Neural-Networks.png"
+    },
+    {
+      name: "SORT(Simple Online and Realtime Tracking)",
+      image: "https://i.ytimg.com/vi/Avpce9ouYJQ/maxresdefault.jpg"
+    },
+    {
+      name: "Kalman Filter",
+      image: "https://images.squarespace-cdn.com/content/v1/5b2d76525cfd790c4a218093/1608500880328-TGZOJB4R15ZOK270PHQ2/predict_correct.png"
+    },
+    {
+      name: "kuhn Munkres Tracker",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5vzth4klmvVLEeC3qu62oIn56nA7lhwLQbg&s"
+    },
 
-      {
-        name: "Pandas",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYdGfU_JedP54Ab0Q8qHMki1stU4Dh2BZ8w&s",
+  ]
+},
+{
+  title: "ML + TSA ",
+  skills: [
+    {
+      name: "Regression",
+      image: "https://miro.medium.com/v2/resize:fit:1400/0*Q80QCpg5u_zOUVek.png"
+    },
+    {
+      name: "Classification",
+      image: "https://tutorialforbeginner.com/images/ml/classification-algorithm-in-machine-learning.png"
+    },
+    {
+      name: "Time series prediction",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM0E5hYF4jRBFekAxLmmJkUTrKG51mBGpICg&s"
+    },
+    {
+      name: "Sk Learn Kit",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+    },
 
-      },
-      {
-        name: "NumPy",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRC2C9EVtvZjW_wQ3f9bEP2Fgla230C3kVYQ&s",
-      },
-      {
-        name: "Matplotlib",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNW4FYu8aIfv9vdr-uK7lxMsd79VsbmuJvJQ&s",
-      },
-      {
-        name:"gTTS",
-        image :"https://pythonfix.com/pkg/g/gtts/gtts-banner.webp",
-      },
+    {
+      name: "Pandas",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYdGfU_JedP54Ab0Q8qHMki1stU4Dh2BZ8w&s",
 
-      {
-        name: "Jupyter",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/2560px-Google_Colaboratory_SVG_Logo.svg.png",
-      },
-      {
-        name :"Hugging Face",
-        image:"https://cdn.worldvectorlogo.com/logos/huggingface-2.svg"
-      }
+    },
+    {
+      name: "NumPy",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRC2C9EVtvZjW_wQ3f9bEP2Fgla230C3kVYQ&s",
+    },
+    {
+      name: "Matplotlib",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNW4FYu8aIfv9vdr-uK7lxMsd79VsbmuJvJQ&s",
+    },
+    {
+      name:"PSO(Particle Swarm Optimization)",
+      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQlP7C6404P4O1Gz1zAuugQCz9dc5yTt8KIg&s"
+    },
+    {
+      name:"Ensemble Learning", 
+      image:"https://www.kdnuggets.com/wp-content/uploads/rafaat_ensemble_learning_techniques_walkthrough_random_forests_python_1.png"
+    },
+   
+    {
+      name:"PCA(Principal Component Analysis)", 
+      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3-yVv1ddEF_C_waFEDLlu4qod80qo9dtKyA&s"
+    },
+    
+  ],
+},
+{
+  title: "Web",
+  skills: [
+ 
+    {
+      name: "MongoDB",
+      image: "https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png"
+    },
+ 
+    {
+      name: "Express Js",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI3nGP9w-Ol7H0GYUnDUdCwqnoLwRzoe_cmA&s",
+    },
+    {
+      name: "React Js",
+      image:
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+    },
+    {
+      name: "Node.js",
+      image: "https://e7.pngegg.com/pngimages/306/37/png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-miscellaneous-text-thumbnail.png  ",
+    },
+    
+    {
+      name: "JavaScript",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+    },
+    {
+      name: "Redux",
+      image:
+        "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+    },
 
-      
-    ],
-  },
-  {
-    title: "Web",
-    skills: [
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Node.js",
-        image:"https://e7.pngegg.com/pngimages/306/37/png-clipart-node-js-logo-node-js-javascript-web-application-express-js-computer-software-others-miscellaneous-text-thumbnail.png  ",  
-      },
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-     
-      {
-        name :"Express Js",
-        image :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI3nGP9w-Ol7H0GYUnDUdCwqnoLwRzoe_cmA&s",
-      },
-      {
-        name: "PHP",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRxpsL-2QuKegg5K1fw0ff4p8ErFk2vmjwZQ&s",
-      },
-      
-      {
-        name: "laravel",
-        image:
-          "https://download.logo.wine/logo/Laravel/Laravel-Logo.wine.png"
-      },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Flask",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIhqNQXYFrSE3l_X_MStZ_O-59yhl0id1CA&s",
-      },
-      
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-            
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-     
-     
+    {
+      name: "PHP",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRxpsL-2QuKegg5K1fw0ff4p8ErFk2vmjwZQ&s",
+    },
 
-    ],
-  },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-      {
-        name:
-          "Chaqopy",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVlfjzr1A4B6voEIstEKE5qzQxGZ9Pf-YFVg&s",
-      },
-    ],
-  },
+    {
+      name: "laravel",
+      image:
+        "https://download.logo.wine/logo/Laravel/Laravel-Logo.wine.png"
+    },
+    {
+      name: "MySQL",
+      image:
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+    },
+    {
+      name: "Python",
+      image:
+        "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    },
+    {
+      name: "Flask",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIhqNQXYFrSE3l_X_MStZ_O-59yhl0id1CA&s",
+    },
+    {
+      name :"Django",
+      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwPdqgkrKMfhAhX2gEAbLFfQK1T6r94FEZw&s"
+    },
+    {
+      name: "HTML",
+      image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+    },
+    {
+      name: "CSS",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+    },
 
-  {
-    title: "Others",
-    skills: [
-      {
-        name :"Docker",
-        image :"https://w7.pngwing.com/pngs/219/411/png-transparent-docker-logo-kubernetes-microservices-cloud-computing-dockers-logo-text-logo-cloud-computing-thumbnail.png"
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name:"MongoDB",
-        image :"https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png"
-      },
-      {
-        name: "Git",
-        image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-      {
-        name: "Intellij IDEA",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8fbwusxe4WMoRjHlWi_5QYN5VlDqZmwXDgQ&s",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
-      },
-      {
-        name: "XAMPP",
-        image:
-          "https://static-00.iconduck.com/assets.00/apps-xampp-icon-256x256-h4mje2zt.png",
-      },
-    ],
-  },
+    {
+      name: "Bootstrap",
+      image:
+        "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+    },
+  ],
+},
+{
+  title: "Others",
+  skills: [
+    {
+      name: "Docker",
+      image: "https://w7.pngwing.com/pngs/219/411/png-transparent-docker-logo-kubernetes-microservices-cloud-computing-dockers-logo-text-logo-cloud-computing-thumbnail.png"
+    },
+    
+     {
+      name: "Hugging Face",
+      image: "https://cdn.worldvectorlogo.com/logos/huggingface-2.svg"
+    },
+    {
+      name: "Git",
+      image:
+        "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+    },
+    {
+      name: "GitHub",
+      image:
+        "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+    },
+    {
+      name: "Jupyter",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+    },
+    {
+      name: "Google Colab",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/2560px-Google_Colaboratory_SVG_Logo.svg.png",
+    },
+    {
+      name: "Firebase",
+      image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+    },
+    {
+      name: "Intellij IDEA",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8fbwusxe4WMoRjHlWi_5QYN5VlDqZmwXDgQ&s",
+    },
+    
+    {
+      name: "XML",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+    },
+    {
+      name: "Android Studio",
+      image:
+        "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+    },
+    {
+      name:
+        "Chaqopy",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVlfjzr1A4B6voEIstEKE5qzQxGZ9Pf-YFVg&s",
+    },
+    {
+      name: "gTTS",
+      image: "https://pythonfix.com/pkg/g/gtts/gtts-banner.webp",
+    },
+    
+    {
+      name: "XAMPP",
+      image:
+        "https://static-00.iconduck.com/assets.00/apps-xampp-icon-256x256-h4mje2zt.png",
+    },
+  ],
+},
 ];
 
 
@@ -242,23 +294,68 @@ export const experiences = [
   //   ],
   // doc:  please insert document or certificate link
   // },
+  // {
+  //   id: ,
+  //   img: "" ,
+  //   role: "",
+  //   company: "",
+  //   date: "",
+  //   desc: "",
+  //   skills: [
+  //     "TSA (Time Series Analysis)",
+  //     "Time Series Forecasting",
+  //     "ARIMA",
+  //     "SARIMA",
+  //     "LSTM (Long Short-Term Memory)",
+  //   ]
+  // },
+
+   {
+    id: 5,
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAJ1BMVEVHcEwgnO4gnO4gnO4Pme4Ale2Rx/X+///j8f16vfRUrvHF4fqiz/dRU6LoAAAAA3RSTlMApvpfQ8SzAAAAmklEQVR4AWNgVDaGAyMBBmFjJGDIAJJESDMYowAQ1yQ0GJnrVt5KEtfEBYVrOSsEidtdXl4ZjOCCwFFUbqUzgjs1qrw8GMYFajRdXr4Ezi01Ng4vT0F2RgSc61leApKdAuUal1eHuG4vh1lkur185+zy6mCYrDnI3mJjGNcLxF0C55qEtVccdYZywcET6gz1EQpAC1i0YEeLFACfnmaCAxeM1QAAAABJRU5ErkJggg==",
+    role: "AI Trainee",
+    company: "Buze Platforms Pvt. Ltd.",
+    date: "May 2025 - Present",
+    desc: "Developed GPU-accelerated C++ inference pipelines for YOLO-based object detection using OpenCV and ONNX, replacing legacy NCNN implementations for edge device deployment. Optimized computer vision code for CUDA-enabled GPUs (e.g., RTX 3050), significantly boosting real-time performance, and contributed to cross-platform system integration and build processes using CMake and CUDA.",
+   skills: [
+      "YOLO",
+      "ONNX",
+      "OpenCV ",
+      "CMake ",
+      "Cross-Platform Development",
+    ] 
+  },
   {
-    "id": 3,
+    id: 4,
+    img: "https://upload.wikimedia.org/wikipedia/en/f/f2/India_Meteorological_Department_%28logo%29.png",
+    role: "Research Intern",
+    company: "India Meteorological Department",
+    date: "May 2025 - Present",
+    desc: "worked under the guidance of Dr. Manorama Mohanty on a research project focused on temperature prediction using time series forecasting. My role involved collecting, preprocessing, and analyzing meteorological data to develop accurate predictive models. I implemented and evaluated various time series techniques, including ARIMA and LSTM, gaining practical experience in applied machine learning and real-world weather data modeling.",
+     skills: [
+      "TSA (Time Series Analysis)",
+      "Time Series Forecasting",
+      "ARIMA",
+      "SARIMA",
+      "LSTM (Long Short-Term Memory)",
+    ]
+  },
+  {
+    id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMNW1DwS6DoBYNgyrnKtG9i3B3mn0I1YkvAw&s",
     role: "Student Researcher",
     company: "Pandit Deendayal Energy University",
     date: "Sep 2024 - Present",
-    desc: "Conducting research on AI-driven sign language translation through the SignToSpeech project, developing real-time sign-to-speech and speech-to-sign solutions using deep learning and AR technologies.",
+    desc: "Conducting research on AI-driven sign language translation through the SignToSpeech project, developing real-time sign-to-speech and speech-to-sign solutions using deep learning and AR technologies. Worked with NVIDIA Jetson Nano to deploy and optimize models for real-time performance, enabling efficient edge computing for gesture recognition and translation.",
     skills: [
-      "Artificial Intelligence",
       "Deep Learning",
       "Computer Vision",
       "OpenCV",
     ]
-},
+  },
   {
-id: 2,
-img: "https://bnbpdeu.web.app/img/logo.png",
+    id: 2,
+    img: "https://bnbpdeu.web.app/img/logo.png",
     role: "Tech and IT Head",
     company: "Bulls And Bear PDEU",
     date: "JULY2024 - Present",
@@ -270,7 +367,7 @@ img: "https://bnbpdeu.web.app/img/logo.png",
       "Node js",
       "Firebase",
     ],
-},
+  },
   {
     id: 1,
     img: "https://miro.medium.com/v2/resize:fit:799/0*ilw552fVUGbwIzbE.jpg",
@@ -278,7 +375,7 @@ img: "https://bnbpdeu.web.app/img/logo.png",
     company: "GFG PDEU",
     date: "OCT2023 - OCT2024",
     desc: "Active participant in technical workshops and competitive coding events at Geeks For Geeks, PDEU, focusing on programming, data structures, algorithms, and web development.",
-     skills: [
+    skills: [
       "Leadership",
       "Web Development",
       "Reactjs",
@@ -297,13 +394,13 @@ img: "https://bnbpdeu.web.app/img/logo.png",
 ];
 
 export const achievements = [
-{
-id: 2,
-img: "https://gate2025.iitr.ac.in/img/logos/green-logo.png",
+  {
+    id: 2,
+    img: "https://gate2025.iitr.ac.in/img/logos/green-logo.png",
     award: "AIR 2764",
     Title: "GATE 2025",
     date: "Feb 2025",
-    desc :"Achieved an All India Rank of 2764 in GATE 2025, showcasing a strong grasp of core technical concepts in computer science. This reflects my problem-solving skills and deep understanding of algorithms, data structures, and machine learning fundamentals.", 
+    desc: "Achieved an All India Rank of 2764 in GATE 2025, showcasing a strong grasp of core technical concepts in computer science. This reflects my problem-solving skills and deep understanding of algorithms, data structures, and machine learning fundamentals.",
   },
   {
     id: 1,
@@ -312,7 +409,7 @@ img: "https://gate2025.iitr.ac.in/img/logos/green-logo.png",
     Title: "Flood Ai Hackthon IIT Gandhinagar",
     date: "Aug 2024",
     desc:
-    "Secured 3rd place at the FloodAI Hackathon organized by IIT Gandhinagar. Developed a comprehensive flood prediction and risk assessment model integrating rainfall forecasts, satellite image analysis, and real-time alerts, helping in disaster preparedness and mitigation.",
+      "Secured 3rd place at the FloodAI Hackathon organized by IIT Gandhinagar. Developed a comprehensive flood prediction and risk assessment model integrating rainfall forecasts, satellite image analysis, and real-time alerts, helping in disaster preparedness and mitigation.",
   },
   {
     id: 0,
@@ -321,7 +418,7 @@ img: "https://gate2025.iitr.ac.in/img/logos/green-logo.png",
     Title: "SRP PDEU IIC",
     date: "Sep 2024",
     desc:
-    "Received a ₹62,000 grant from PDPU IIC for developing SignToSpeech and vice verse, a real-time sign language to speech translation system. The project integrates deep learning and AR technology to bridge the communication gap for individuals with speech and hearing impairments."
+      "Received a ₹62,000 grant from PDPU IIC for developing SignToSpeech and vice verse, a real-time sign language to speech translation system. The project integrates deep learning and AR technology to bridge the communication gap for individuals with speech and hearing impairments."
   },
 ];
 export const education = [
@@ -355,19 +452,40 @@ export const education = [
 ];
 
 export const projects = [
-  
   {
-    id: 8 ,
+    id: 8,
+    title: "Inverter output Voltage Prediction",
+    date: "Jan 2024 ",
+    description:
+    "developed a system for predicting output voltage using various machine learning algorithms, including Decision Tree, XGBoost, and Neural Networks. After training and evaluating these models individually, I applied Particle Swarm Optimization (PSO) to fine-tune their hyperparameters and identify the optimal parameter set for improved accuracy. To further enhance prediction performance, I implemented a stacked ensemble approach that combines the strengths of all individual models. This ensemble model leverages the complementary capabilities of each algorithm, resulting in a more robust and reliable voltage prediction system." 
+    ,
+    image:
+      "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F642765%2Fff29577cce2f7018785f91a5d1a3805c%2FScreenshot%20from%202020-10-27%2011-39-16.png?generation=1603795173235540&alt=media",
+    tags: ["Particle Swarm Optimization","Hyperparameter Tuning","Ensemble Learning (Stacked Ensemble)", "Pandas", "Matplotlib", "NumPy"],
+    category: "machine learning",
+    github: "https://github.com/DeepMathukiya/InverterOpVolt",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+    ],
+  },
+
+  {
+    id: 8,
     title: "SignToSpeech",
-    date: "Oct 2023 ",
+    date: "Oct 2024 ",
     description:
       "Sign Language to Speech Conversion and Vice a versa : A Flutter-based app that facilitates real-time translation between Gujarati sign language and speech, utilizing AR technology to visually represent signs, enhancing communication between signers and non-signers."
-      ,
-      image:
+    ,
+    image:
       "https://imgur.com/AqGYGmu.gif",
-      tags: ["TensorFlow", "Pandas", "Matplotlib", "JavaScript", "Flutter","Keras","OpenCV","NumPy"],
-      category: "android app",
-      category2: "machine learning",
+    tags: ["TensorFlow", "Pandas", "Matplotlib", "JavaScript", "Flutter", "Keras", "OpenCV", "NumPy"],
+    category: "android app",
+    category2: "machine learning",
     github: "https://github.com/DeepMathukiya/SignToSpeech",
     member: [
       {
@@ -390,12 +508,12 @@ export const projects = [
     date: "September 2024 ",
     description:
       "Flood Prediction Application: A web app providing real-time flood risk analysis through flood mapping, machine learning-based flood-prone region predictions, and user alerts for early warnings, enabling proactive decision-making.It also Takes Picture from satelite and highlite the flooded area."
-      ,
-      image:
+    ,
+    image:
       "https://imgur.com/i4aoKu2.gif",
-      tags: ["TensorFlow", "Pandas","OpenCV","NumPy", "Matplotlib", "JavaScript", "React.js"],
-      category: "web app",
-      category2: "machine learning",
+    tags: ["TensorFlow", "Pandas", "OpenCV", "NumPy", "Matplotlib", "JavaScript", "React.js"],
+    category: "web app",
+    category2: "machine learning",
     github: "https://github.com/DeepMathukiya/FloodAiHackthon",
     member: [
       {
@@ -404,7 +522,7 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/deepmathukiya/",
         github: "https://github.com/DeepMathukiya/",
       },
-      
+
     ],
   },
   {
@@ -412,13 +530,13 @@ export const projects = [
     title: "AgrisenseAI",
     date: "August 2024 ",
     description:
-     "Smart Agriculture Assistant: An AI-driven platform designed to assist farmers in identifying crop diseases using a CNN model for leaf analysis, with an integrated AR feature for scanning crops and offering detailed disease insights and solutions."
-     ,
-      image:
+      "Smart Agriculture Assistant: An AI-driven platform designed to assist farmers in identifying crop diseases using a CNN model for leaf analysis, with an integrated AR feature for scanning crops and offering detailed disease insights and solutions."
+    ,
+    image:
       "https://imgur.com/6jkSHxl.gif",
-      tags: ["TensorFlow", "Pandas","OpenCV","NumPy", "Matplotlib", "JavaScript", "React.js"],
-      category: "web app",
-      category2: "machine learning",
+    tags: ["TensorFlow", "Pandas", "OpenCV", "NumPy", "Matplotlib", "JavaScript", "React.js"],
+    category: "web app",
+    category2: "machine learning",
     github: "https://github.com/DeepMathukiya/AgriSense-Ai",
     member: [
       {
@@ -433,47 +551,20 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/ansh-sardhara/",
         github: "https://github.com/ansh-2411",
       },
-      
+
     ],
   },
+
   
-  {
-    id: 7 ,
-    title: "Medecio",
-    date: "Oct 2023 ",
-    description:
-      "Medecio: is a web platform designed for doctors and patients. Doctors can register with their clinic names, manage patient entries with a receptionist inputting basic details. Doctors can search patients by email, access previous records and descriptions, and input prescriptions via speech-to-text in the particular day patient record. In the patient section, users can predict diseases and book appointments with nearby top-rated doctors specializing in their predicted ailment.   "
-      ,
-      image:
-      "https://imgur.com/d85Vkrl.jpg",
-      tags: ["HTML", "CSS", "PHP", "MYSQL", "JavaScript", "Xampp","MailSender"],
-      category: "web app",
-    github: "https://github.com/DeepMathukiya/medecio",
-    webapp: "https://github.com/DeepMathukiya/medecio",
-    member: [
-      {
-        name: "Deep Mathukiya",
-        img: "https://imgur.com/9sH6f9a.jpg",
-        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
-        github: "https://github.com/DeepMathukiya/",
-      },
-      {
-        name: "Ansh Sardhara",
-        img: "https://imgur.com/LoEqpGd.jpg",
-        linkedin: "https://www.linkedin.com/in/ansh-sardhara/",
-        github: "https://github.com/ansh-2411",
-      },
-    ],
-  },
   {
     id: 8,
     title: "SQL Generator",
     date: "April 2024",
     description:
-    "Effortlessly create complex SQL queries with our intuitive SQL Query Generator. Designed for both beginners and experts, our tool simplifies database interaction, ensuring accurate and efficient query building without the need for deep SQL knowledge.",
+      "Effortlessly create complex SQL queries with our intuitive SQL Query Generator. Designed for both beginners and experts, our tool simplifies database interaction, ensuring accurate and efficient query building without the need for deep SQL knowledge.",
     image:
       "https://imgur.com/3l7eKtm.jpg",
-    tags: ["GenerativeAi","MySql","Flask","HTML","Bootstrap", "Firebase","CSS", ],
+    tags: ["GenerativeAi", "MySql", "Flask", "HTML", "Bootstrap", "Firebase", "CSS",],
     category: "web app",
     category2: "machine learning",
     github: "https://github.com/DeepMathukiya/SqlQueryGenerator",
@@ -500,6 +591,34 @@ export const projects = [
     ],
   },
   {
+    id: 7,
+    title: "Medecio",
+    date: "Oct 2023 ",
+    description:
+      "Medecio: is a web platform designed for doctors and patients. Doctors can register with their clinic names, manage patient entries with a receptionist inputting basic details. Doctors can search patients by email, access previous records and descriptions, and input prescriptions via speech-to-text in the particular day patient record. In the patient section, users can predict diseases and book appointments with nearby top-rated doctors specializing in their predicted ailment.   "
+    ,
+    image:
+      "https://imgur.com/d85Vkrl.jpg",
+    tags: ["HTML", "CSS", "PHP", "MYSQL", "JavaScript", "Xampp", "MailSender"],
+    category: "web app",
+    github: "https://github.com/DeepMathukiya/medecio",
+    webapp: "https://github.com/DeepMathukiya/medecio",
+    member: [
+      {
+        name: "Deep Mathukiya",
+        img: "https://imgur.com/9sH6f9a.jpg",
+        linkedin: "https://www.linkedin.com/in/deepmathukiya/",
+        github: "https://github.com/DeepMathukiya/",
+      },
+      {
+        name: "Ansh Sardhara",
+        img: "https://imgur.com/LoEqpGd.jpg",
+        linkedin: "https://www.linkedin.com/in/ansh-sardhara/",
+        github: "https://github.com/ansh-2411",
+      },
+    ],
+  },
+  {
     id: 6,
     title: "Heart disease Prediction",
     date: "Oct 2023",
@@ -507,7 +626,7 @@ export const projects = [
       "A machine learning technique predicts whether a person is suffering from heart disease based on several basic attributes such as age, gender, type of chest pain, cholesterol levels, heart rate, and ST depression. The system takes user data from a form and generates an output upon submission of the data. ",
     image:
       "https://imgur.com/fMsHwR4.jpg",
-    tags: ["Scikit-learn","NumPy","Flask","HTML","Bootstrap", "Firebase", ],
+    tags: ["Scikit-learn", "NumPy", "Flask", "HTML", "Bootstrap", "Firebase",],
     category: "machine learning",
     category2: "web app",
     github: "https://github.com/DeepMathukiya/heart-disease",
@@ -521,15 +640,15 @@ export const projects = [
       },
     ],
   },
-  
+
   {
     id: 5,
     title: "Text To Music",
-    date: "Aug 2023 - Sep 2023",
+    date: "Aug 2023 ",
     description:
       " This Java-based Android application enables users to choose a .txt file from their device. Upon selecting a text file, the application utilizes the Python gTTS library to convert the text content into an .mp3 file. ",
     image:
-      "https://imgur.com/jvxqCBd.gif", 
+      "https://imgur.com/jvxqCBd.gif",
     tags: ["Java", "XML", "Android Studio", "Chaquopy"],
     category: "android app",
     github: "https://github.com/DeepMathukiya/TextToMusic",
@@ -543,11 +662,11 @@ export const projects = [
       },
     ],
   },
-  
+
   {
     id: 4,
     title: "IMusic",
-    date: "Aug -2023",
+    date: "Aug 2023",
     description:
       "A media player android application, developed in Java, serves as a media player that showcases a comprehensive list of all .mp3 files accessible on the device. Upon a user's selection of any mp3 file from the list, the app initiates playback of the corresponding music. This media player is equipped with fundamental functionalities such as play, pause, a seek bar, as well as next and previous buttons.",
     image:
@@ -567,14 +686,14 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Diabetes" ,
+    title: "Diabetes",
     date: "june 2023",
     description:
-"a machine learning model and its user-friendly interface for predicting diabetes risk. Users can input relevant health parameters, and the model provides personalized risk assessments, aiding in early detection and preventive measures.",    image:
-    "https://imgur.com/YtslgsK.gif",
+      "a machine learning model and its user-friendly interface for predicting diabetes risk. Users can input relevant health parameters, and the model provides personalized risk assessments, aiding in early detection and preventive measures.", image:
+      "https://imgur.com/YtslgsK.gif",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "web app",
-    category2:"machine learning",
+    category2: "machine learning",
     github: "https://github.com/DeepMathukiya/Diabetes",
     webapp: "https://diabetes-6dzs.onrender.com/",
     member: [
@@ -586,7 +705,7 @@ export const projects = [
       },
     ],
   },
- 
+
   {
     id: 2,
     title: "CharitAble",
