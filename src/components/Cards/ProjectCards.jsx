@@ -28,6 +28,7 @@ const Card = styled.div`
     flex-direction: column;
     gap: 14px;
     transition: all 0.5s ease-in-out;
+    
     &:hover {
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
@@ -70,6 +71,7 @@ const Details = styled.div`
     flex-direction: column;
     gap: 0px;
     padding: 0px 2px;
+    max-height: 100px;
 `
 const Title = styled.div`
     font-size: 20px;
@@ -105,12 +107,15 @@ const Description = styled.div`
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    
 `
 
 const Members = styled.div`
     display: flex;
     align-items: center;
     padding-left: 10px;
+    // position: sticky;
+    bottom: 0;
 `
 const Avatar = styled.img`
     width: 38px;

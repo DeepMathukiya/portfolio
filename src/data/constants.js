@@ -461,7 +461,7 @@ export const projects = [
     ,
     image:
       "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F642765%2Fff29577cce2f7018785f91a5d1a3805c%2FScreenshot%20from%202020-10-27%2011-39-16.png?generation=1603795173235540&alt=media",
-    tags: ["Particle Swarm Optimization","Hyperparameter Tuning","Ensemble Learning (Stacked Ensemble)", "Pandas", "Matplotlib", "NumPy"],
+    tags: ["Particle Swarm Optimization","Ensemble Learning (Stacked Ensemble)", "Pandas", "Matplotlib", "NumPy"],
     category: "machine learning",
     github: "https://github.com/DeepMathukiya/InverterOpVolt",
     member: [
@@ -534,7 +534,7 @@ export const projects = [
     ,
     image:
       "https://imgur.com/6jkSHxl.gif",
-    tags: ["TensorFlow", "Pandas", "OpenCV", "NumPy", "Matplotlib", "JavaScript", "React.js"],
+    tags: ["TensorFlow", "Pandas", "OpenCV", "NumPy", "Matplotlib", "React.js"],
     category: "web app",
     category2: "machine learning",
     github: "https://github.com/DeepMathukiya/AgriSense-Ai",
@@ -671,7 +671,7 @@ export const projects = [
       "A media player android application, developed in Java, serves as a media player that showcases a comprehensive list of all .mp3 files accessible on the device. Upon a user's selection of any mp3 file from the list, the app initiates playback of the corresponding music. This media player is equipped with fundamental functionalities such as play, pause, a seek bar, as well as next and previous buttons.",
     image:
       "https://imgur.com/n4xS6jq.gif",
-    tags: ["Java", "XML", "Android Studio",],
+    tags: ["Java", "XML", "Android Studio","OOPS Structure",""],
     category: "android app",
     github: "https://github.com/DeepMathukiya/Imusic",
     webapp: "http://deepapp.html-5.me/index.php?filename=IMusic.apk",
@@ -691,7 +691,7 @@ export const projects = [
     description:
       "a machine learning model and its user-friendly interface for predicting diabetes risk. Users can input relevant health parameters, and the model provides personalized risk assessments, aiding in early detection and preventive measures.", image:
       "https://imgur.com/YtslgsK.gif",
-    tags: ["React Native", "JavaScript", "Axios"],
+    tags: ["React Native", "JavaScript", "Axios","Flask", "HTML", "Bootstrap"]  ,
     category: "web app",
     category2: "machine learning",
     github: "https://github.com/DeepMathukiya/Diabetes",
