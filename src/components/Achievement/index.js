@@ -73,14 +73,13 @@ const TimelineSection = styled.div`
 `;
 
 
-
 const index = () => {
     return (
         <Container id="achievement">
             <Wrapper>
-                <Title>Achievement</Title>
+                <Title>Achievements</Title>
                 <Desc>
-                Extensive experience as a Software Engineer, contributing to various companies, university clubs, and innovative projects.
+            Notable accomplishments that reflect my dedication and results.
                 </Desc> 
                 <TimelineSection>
                     <Timeline>

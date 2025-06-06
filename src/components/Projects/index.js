@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+         A showcase of the work I've done and the skills I've gained along the way.
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -28,15 +28,15 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP</ToggleButton>
           }
           <Divider />
           {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP</ToggleButton>
           }
           
         </ToggleButtonGroup>

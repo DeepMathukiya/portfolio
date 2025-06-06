@@ -57,7 +57,7 @@ const Navbar = () => {
             }}>Projects</MobileLink>
             <MobileLink href='#achievement' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Achievement</MobileLink>
+            }}>Achievements</MobileLink>
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>

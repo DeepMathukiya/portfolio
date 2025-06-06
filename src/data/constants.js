@@ -331,7 +331,7 @@ export const experiences = [
     role: "Research Intern",
     company: "India Meteorological Department",
     date: "May 2025 - Present",
-    desc: "worked under the guidance of Dr. Manorama Mohanty on a research project focused on temperature prediction using time series forecasting. My role involved collecting, preprocessing, and analyzing meteorological data to develop accurate predictive models. I implemented and evaluated various time series techniques, including ARIMA and LSTM, gaining practical experience in applied machine learning and real-world weather data modeling.",
+    desc: "Worked under the guidance of Dr. Manorama Mohanty on a research project focused on temperature prediction using time series forecasting. My role involved collecting, preprocessing, and analyzing meteorological data to develop accurate predictive models. I implemented and evaluated various time series techniques, including ARIMA and LSTM, gaining practical experience in applied machine learning and real-world weather data modeling.",
      skills: [
       "TSA (Time Series Analysis)",
       "Time Series Forecasting",
@@ -454,10 +454,10 @@ export const education = [
 export const projects = [
   {
     id: 8,
-    title: "Inverter output Voltage Prediction",
+    title: "Inverter Output Voltage Prediction",
     date: "Jan 2024 ",
     description:
-    "developed a system for predicting output voltage using various machine learning algorithms, including Decision Tree, XGBoost, and Neural Networks. After training and evaluating these models individually, I applied Particle Swarm Optimization (PSO) to fine-tune their hyperparameters and identify the optimal parameter set for improved accuracy. To further enhance prediction performance, I implemented a stacked ensemble approach that combines the strengths of all individual models. This ensemble model leverages the complementary capabilities of each algorithm, resulting in a more robust and reliable voltage prediction system." 
+    "Developed a system for predicting output voltage using various machine learning algorithms, including Decision Tree, XGBoost, and Neural Networks. After training and evaluating these models individually, I applied Particle Swarm Optimization (PSO) to fine-tune their hyperparameters and identify the optimal parameter set for improved accuracy. To further enhance prediction performance, I implemented a stacked ensemble approach that combines the strengths of all individual models. This ensemble model leverages the complementary capabilities of each algorithm, resulting in a more robust and reliable voltage prediction system." 
     ,
     image:
       "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F642765%2Fff29577cce2f7018785f91a5d1a3805c%2FScreenshot%20from%202020-10-27%2011-39-16.png?generation=1603795173235540&alt=media",
@@ -689,7 +689,7 @@ export const projects = [
     title: "Diabetes",
     date: "june 2023",
     description:
-      "a machine learning model and its user-friendly interface for predicting diabetes risk. Users can input relevant health parameters, and the model provides personalized risk assessments, aiding in early detection and preventive measures.", image:
+      "A machine learning model and its user-friendly interface for predicting diabetes risk. Users can input relevant health parameters, and the model provides personalized risk assessments, aiding in early detection and preventive measures.", image:
       "https://imgur.com/YtslgsK.gif",
     tags: ["React Native", "JavaScript", "Axios","Flask", "HTML", "Bootstrap"]  ,
     category: "web app",
